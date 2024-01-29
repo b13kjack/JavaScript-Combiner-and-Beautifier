@@ -1,4 +1,4 @@
-# About [JavaScript Combiner and Beautifier](https://github.com/Zarcolio/wwwordlist](https://github.com/b13kjack/JavaScript-Combiner-and-Beautifier)
+# About [JavaScript Combiner and Beautifier](https://github.com/b13kjack/JavaScript-Combiner-and-Beautifier)
 
 Simple python script that combines and beautifies js chunks or multiple scripts into one file.
 

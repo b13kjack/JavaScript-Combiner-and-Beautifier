@@ -1,8 +1,16 @@
+import sys
 import os
 import jsbeautifier
 
-# Path to the JavaScript directory
+# Path to the JavaScript directory, can be hardcoded below or provided as a command line argument eg. python jscb.py C:\js_chunks
 js_directory = ""
+# Check if the directory is provided as a command line argument
+if len(sys.argv) > 1:
+    js_directory = sys.argv[1]
+# If not provided in command line nor hardcoded, raise an exception 
+elif js_directory == "":
+    print("No directory provided. Please provide a directory as a command line argument (eg. python beautify_v4.py C:\js_chunks) or hardcode it in the script.")
+    sys.exit(1)
 
 # Function to concatenate and beautify JavaScript files
 def beautify_js_chunks(directory):

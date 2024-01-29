@@ -18,10 +18,15 @@ pip install -r requirements.txt
 
 # Usage
 
-Hardcode directory into the js_directory = "" variable
-Then simply run
+Simply run:
+```
+
+python jscb.py <directory>
+
+For example:
+
+python jscb.py C:\js_chunks
 
 ```
-python jscb.py
 
-```
+You can also hardcode the directory in the script itself. Just change the value of the variable "js_directory" to your desired directory.

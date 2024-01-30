@@ -1,6 +1,7 @@
 # About [JavaScript Combiner and Beautifier](https://github.com/b13kjack/JavaScript-Combiner-and-Beautifier)
 
 Simple python script that combines and beautifies js chunks (from compiled react web apps etc.) or multiple scripts into one file.
+
 In the future I plan to add deobfuscate feature as well
 
 
